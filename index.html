@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Egesha</title>
+  <link rel="stylesheet" type="text/css" href="styles/inline.css">
+  <link rel="stylesheet" type="text/css" href="styles/leaflet.css">
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <link rel="stylesheet" href="styles/leaflet-routing-machine.css" />
+  <link rel="manifest" href="/manifest.json">
+  <script src="./scripts/leaflet.js"></script>
+  <script src="./scripts/l.control.geosearch.js"></script>
+  <script src="./scripts/l.geosearch.provider.openstreetmap.js"></script>
+  <link rel="stylesheet" href="./styles/l.geosearch.css" />
+  <script src="./scripts/leaflet-routing-machine.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <!-- Add to home screen for Safari on iOS -->
+ 
+  <link rel="apple-touch-icon" href="./images/icons/icon-152x152.png">
+
+  <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#2F3BA2">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+</head>
+<body>
+<div id="loading">
+  <img id="loading-image" src="images/ajax-loader.gif" alt="Loading..." />
+</div>
+
+
+  <header class="header">
+    <h1 class="header__title">JUMA</h1>
+    
+  </header>
+
+  <main class="main">
+  
+	<div id="mapid" ></div>
+	
+  </main>
+
+  <script src="./scripts/appc1.js" async></script>
+  <script language="javascript" type="text/javascript">
+     $(window).load(function() {
+     $('#loading').hide();
+  });
+</script>
+</body>
+</html>
